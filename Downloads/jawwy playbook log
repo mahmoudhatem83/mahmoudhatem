@@ -1,0 +1,693 @@
+
+es for all hosts to be discovered (141 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (140 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (139 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (138 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (137 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (136 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (135 retries left).
+FAILED - RETRYING: Allow up to 190 minutes for all hosts to be discovered (134 retries left).
+ok: [bastion]
+
+TASK [Patch discovered hosts] ***********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:57:14.738)       0:57:51.976 *********
+
+TASK [patch_host_config : Wait for up to 10 minutes for node discovery - 798bcc89-0fed-cf6d-0eab-992f69ede72b] **************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:00:00.129)       0:57:52.106 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host 798bcc89-0fed-cf6d-0eab-992f69ede72b] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:00:00.034)       0:57:52.141 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host 798bcc89-0fed-cf6d-0eab-992f69ede72b] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:00:00.033)       0:57:52.174 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host 798bcc89-0fed-cf6d-0eab-992f69ede72b properties] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:00:00.042)       0:57:52.217 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host 798bcc89-0fed-cf6d-0eab-992f69ede72b interfaces] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:24 +0300 (0:00:00.167)       0:57:52.384 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for 798bcc89-0fed-cf6d-0eab-992f69ede72b] **********************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.043)       0:57:52.428 *********
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion]
+
+TASK [patch_host_config : Prepare hosts name and role for master1] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.336)       0:57:52.764 *********
+ok: [bastion]
+
+TASK [patch_host_config : Create patch body with hostname for master1] ******************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.036)       0:57:52.801 *********
+ok: [bastion]
+
+TASK [patch_host_config : Add host role to patch body for master1] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.032)       0:57:52.834 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for master1] ***************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.040)       0:57:52.875 *********
+ok: [bastion]
+
+TASK [patch_host_config : Fetch the installation disk path from host vars] **************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.307)       0:57:53.182 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Set the installation disk to {{ installation_disk_path }} for {{ host_name }}] ********************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.034)       0:57:53.217 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Template patch partition] *************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.032)       0:57:53.249 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.034)       0:57:53.284 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Patch worker partition] ***************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.034)       0:57:53.318 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.031)       0:57:53.350 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Wait for up to 10 minutes for node discovery - abfa80f6-61b4-3d6a-4eb4-436c2102b48e] **************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.032)       0:57:53.382 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host abfa80f6-61b4-3d6a-4eb4-436c2102b48e] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:25 +0300 (0:00:00.029)       0:57:53.412 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host abfa80f6-61b4-3d6a-4eb4-436c2102b48e] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.030)       0:57:53.443 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host abfa80f6-61b4-3d6a-4eb4-436c2102b48e properties] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.039)       0:57:53.483 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host abfa80f6-61b4-3d6a-4eb4-436c2102b48e interfaces] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.068)       0:57:53.551 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for abfa80f6-61b4-3d6a-4eb4-436c2102b48e] **********************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.051)       0:57:53.603 *********
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion]
+
+TASK [patch_host_config : Prepare hosts name and role for master0] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.333)       0:57:53.936 *********
+ok: [bastion]
+
+TASK [patch_host_config : Create patch body with hostname for master0] ******************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.043)       0:57:53.980 *********
+ok: [bastion]
+
+TASK [patch_host_config : Add host role to patch body for master0] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.034)       0:57:54.015 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for master0] ***************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.040)       0:57:54.055 *********
+ok: [bastion]
+
+TASK [patch_host_config : Fetch the installation disk path from host vars] **************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:26 +0300 (0:00:00.333)       0:57:54.389 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Set the installation disk to {{ installation_disk_path }} for {{ host_name }}] ********************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.045)       0:57:54.435 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Template patch partition] *************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.046)       0:57:54.481 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.045)       0:57:54.527 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Patch worker partition] ***************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.052)       0:57:54.579 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.037)       0:57:54.616 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Wait for up to 10 minutes for node discovery - 42a3e553-5225-65e2-2209-cbf2a33454f6] **************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.047)       0:57:54.664 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host 42a3e553-5225-65e2-2209-cbf2a33454f6] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.043)       0:57:54.707 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Identify the discovered host 42a3e553-5225-65e2-2209-cbf2a33454f6] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.061)       0:57:54.768 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host 42a3e553-5225-65e2-2209-cbf2a33454f6 properties] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.044)       0:57:54.813 *********
+ok: [bastion]
+
+TASK [patch_host_config : Identify the host 42a3e553-5225-65e2-2209-cbf2a33454f6 interfaces] ********************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.098)       0:57:54.912 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for 42a3e553-5225-65e2-2209-cbf2a33454f6] **********************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.057)       0:57:54.969 *********
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+skipping: [bastion] => (item=None)
+ok: [bastion] => (item=None)
+ok: [bastion]
+
+TASK [patch_host_config : Prepare hosts name and role for master2] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:27 +0300 (0:00:00.448)       0:57:55.418 *********
+ok: [bastion]
+
+TASK [patch_host_config : Create patch body with hostname for master2] ******************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.045)       0:57:55.464 *********
+ok: [bastion]
+
+TASK [patch_host_config : Add host role to patch body for master2] **********************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.038)       0:57:55.502 *********
+ok: [bastion]
+
+TASK [patch_host_config : Set host name and role for master2] ***************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.043)       0:57:55.545 *********
+ok: [bastion]
+
+TASK [patch_host_config : Fetch the installation disk path from host vars] **************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.323)       0:57:55.869 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Set the installation disk to {{ installation_disk_path }} for {{ host_name }}] ********************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.036)       0:57:55.905 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Template patch partition] *************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.033)       0:57:55.938 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.032)       0:57:55.971 *********
+skipping: [bastion]
+
+TASK [patch_host_config : Patch worker partition] ***************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.034)       0:57:56.005 *********
+skipping: [bastion]
+
+TASK [patch_host_config : debug] ********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.033)       0:57:56.039 *********
+skipping: [bastion]
+
+TASK [install_cluster : Set config vars for patching the cluster (SNO)] *****************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.032)       0:57:56.071 *********
+skipping: [bastion]
+
+TASK [install_cluster : Set config vars for patching the cluster (HA)] ******************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.033)       0:57:56.105 *********
+ok: [bastion]
+
+TASK [install_cluster : debug] **********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.041)       0:57:56.146 *********
+skipping: [bastion]
+
+TASK [install_cluster : Patch cluster] **************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:28 +0300 (0:00:00.036)       0:57:56.183 *********
+ok: [bastion]
+
+TASK [install_cluster : debug] **********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:29 +0300 (0:00:00.326)       0:57:56.509 *********
+skipping: [bastion]
+
+TASK [install_cluster : debug] **********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:29 +0300 (0:00:00.030)       0:57:56.539 *********
+ok: [bastion] =>
+  msg: Manually mount ISO on BM servers and boot them on that ISO
+
+TASK [install_cluster : debug] **********************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:51:29 +0300 (0:00:00.030)       0:57:56.570 *********
+ok: [bastion] =>
+  msg: mount the ISO from http://10.27.2.20/discovery/jawwy-ocs-prod01-bm/discovery-image.iso
+
+TASK [install_cluster : Wait up to 20 minutes for the cluster to report as ready] *******************************************************************************************************************************************
+Saturday 11 June 2022  17:51:29 +0300 (0:00:00.031)       0:57:56.601 *********
+FAILED - RETRYING: Wait up to 20 minutes for the cluster to report as ready (20 retries left).
+FAILED - RETRYING: Wait up to 20 minutes for the cluster to report as ready (19 retries left).
+ok: [bastion]
+
+TASK [install_cluster : Install cluster] ************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:53:29 +0300 (0:02:00.769)       0:59:57.370 *********
+ok: [bastion]
+
+TASK [install_cluster : Debug http_reply] ***********************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.290)       0:59:57.661 *********
+skipping: [bastion]
+[WARNING]: Could not match supplied host pattern, ignoring: workers
+
+PLAY [Monitoring hosts installation] ****************************************************************************************************************************************************************************************
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.058)       0:59:57.719 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.034)       0:59:57.754 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.043)       0:59:57.797 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+skipping: [master0]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.042)       0:59:57.840 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.031)       0:59:57.871 *********
+skipping: [master2]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.028)       0:59:57.900 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.026)       0:59:57.927 *********
+skipping: [master0]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.041)       0:59:57.969 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.035)       0:59:58.004 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master2]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.030)       0:59:58.034 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.027)       0:59:58.061 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+skipping: [master2]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.025)       0:59:58.087 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.023)       0:59:58.110 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.024)       0:59:58.134 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.022)       0:59:58.157 *********
+skipping: [master2]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.024)       0:59:58.181 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.027)       0:59:58.209 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.026)       0:59:58.235 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.023)       0:59:58.259 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master2]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.025)       0:59:58.284 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.022)       0:59:58.307 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.025)       0:59:58.333 *********
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.022)       0:59:58.355 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master2]
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:53:30 +0300 (0:00:00.056)       0:59:58.412 *********
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.025)       0:59:58.437 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.029)       0:59:58.467 *********
+
+TASK [validate_inventory : Record successful validation on all hosts] *******************************************************************************************************************************************************
+ok: [master1 -> http_store] => (item=http_store)
+ok: [master1 -> registry_host] => (item=registry_host)
+ok: [master1 -> assisted_installer] => (item=assisted_installer)
+ok: [master1 -> dns_host] => (item=dns_host)
+ok: [master1 -> ntp_host] => (item=ntp_host)
+ok: [master1 -> bastion] => (item=bastion)
+ok: [master1 -> master1] => (item=master1)
+ok: [master1 -> master0] => (item=master0)
+ok: [master1 -> master2] => (item=master2)
+ok: [master1 -> localhost] => (item=localhost)
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master2]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.038)       0:59:58.505 *********
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.026)       0:59:58.531 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.034)       0:59:58.565 *********
+skipping: [master2]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.027)       0:59:58.593 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.038)       0:59:58.631 *********
+skipping: [master2]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.040)       0:59:58.672 *********
+
+TASK [validate_inventory : include_tasks] ***********************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.076)       0:59:58.748 *********
+skipping: [master2]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.080)       0:59:58.829 *********
+
+TASK [validate_inventory : Record successful validation on all hosts] *******************************************************************************************************************************************************
+ok: [master0 -> http_store] => (item=http_store)
+ok: [master0 -> registry_host] => (item=registry_host)
+ok: [master0 -> assisted_installer] => (item=assisted_installer)
+ok: [master0 -> dns_host] => (item=dns_host)
+ok: [master0 -> ntp_host] => (item=ntp_host)
+ok: [master0 -> bastion] => (item=bastion)
+ok: [master0 -> master1] => (item=master1)
+ok: [master0 -> master0] => (item=master0)
+ok: [master0 -> master2] => (item=master2)
+ok: [master0 -> localhost] => (item=localhost)
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.037)       0:59:58.867 *********
+
+TASK [monitor_host : Get cluster status during installation] ****************************************************************************************************************************************************************
+ok: [master1 -> bastion]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.027)       0:59:58.894 *********
+
+TASK [validate_inventory : Record successful validation on all hosts] *******************************************************************************************************************************************************
+ok: [master2 -> http_store] => (item=http_store)
+ok: [master2 -> registry_host] => (item=registry_host)
+ok: [master2 -> assisted_installer] => (item=assisted_installer)
+ok: [master2 -> dns_host] => (item=dns_host)
+ok: [master2 -> ntp_host] => (item=ntp_host)
+ok: [master2 -> bastion] => (item=bastion)
+ok: [master2 -> master1] => (item=master1)
+ok: [master2 -> master0] => (item=master0)
+ok: [master2 -> master2] => (item=master2)
+ok: [master2 -> localhost] => (item=localhost)
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.069)       0:59:58.964 *********
+
+TASK [monitor_host : Identify the host] *************************************************************************************************************************************************************************************
+skipping: [master1] => (item=None)
+skipping: [master1] => (item=None)
+ok: [master1] => (item=None)
+ok: [master1]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.031)       0:59:58.996 *********
+included: /home/mxapocpadmin/crucible/roles/monitor_host/tasks/hosts_monitoring.yml for master1
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.050)       0:59:59.046 *********
+
+TASK [monitor_host : Get cluster status during installation] ****************************************************************************************************************************************************************
+ok: [master0 -> bastion]
+Saturday 11 June 2022  17:53:31 +0300 (0:00:00.239)       0:59:59.285 *********
+
+TASK [monitor_host : Identify the host] *************************************************************************************************************************************************************************************
+ok: [master0] => (item=None)
+skipping: [master0] => (item=None)
+skipping: [master0] => (item=None)
+ok: [master0]
+FAILED - RETRYING: Wait for up to 60 minutes for node master1 to reboot (60 retries left).
+Saturday 11 June 2022  17:53:32 +0300 (0:00:00.236)       0:59:59.522 *********
+
+TASK [monitor_host : Get cluster status during installation] ****************************************************************************************************************************************************************
+ok: [master2 -> bastion]
+included: /home/mxapocpadmin/crucible/roles/monitor_host/tasks/hosts_monitoring.yml for master0
+Saturday 11 June 2022  17:53:32 +0300 (0:00:00.039)       0:59:59.561 *********
+Saturday 11 June 2022  17:53:32 +0300 (0:00:00.006)       0:59:59.568 *********
+
+TASK [monitor_host : Identify the host] *************************************************************************************************************************************************************************************
+skipping: [master2] => (item=None)
+ok: [master2] => (item=None)
+skipping: [master2] => (item=None)
+ok: [master2]
+Saturday 11 June 2022  17:53:32 +0300 (0:00:00.067)       0:59:59.635 *********
+included: /home/mxapocpadmin/crucible/roles/monitor_host/tasks/hosts_monitoring.yml for master2
+Saturday 11 June 2022  17:53:32 +0300 (0:00:00.037)       0:59:59.673 *********
+FAILED - RETRYING: Wait for up to 60 minutes for node master0 to reboot (60 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master2 to reboot (60 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master1 to reboot (59 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master0 to reboot (59 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master2 to reboot (59 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master1 to reboot (58 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master0 to reboot (58 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master2 to reboot (58 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master1 to reboot (57 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master0 to reboot (57 retries left).
+FAILED - RETRYING: Wait for up to 60 minutes for node master2 to reboot (57 retries left).
+
+TASK [monitor_host : Wait for up to 60 minutes for node master1 to reboot] **************************************************************************************************************************************************
+ok: [master1 -> bastion]
+Saturday 11 June 2022  17:57:33 +0300 (0:04:00.760)       1:04:00.434 *********
+
+TASK [Force rebooting on disk] **********************************************************************************************************************************************************************************************
+skipping: [master1]
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.038)       1:04:00.472 *********
+
+TASK [monitor_host : Fail if host is in error condition] ********************************************************************************************************************************************************************
+fatal: [master1 -> bastion]: FAILED! => changed=false
+  msg: master1 is in error condition can not continue
+
+TASK [monitor_host : Wait for up to 60 minutes for node master0 to reboot] **************************************************************************************************************************************************
+ok: [master0 -> bastion]
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.389)       1:04:00.861 *********
+
+TASK [Force rebooting on disk] **********************************************************************************************************************************************************************************************
+skipping: [master0]
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.042)       1:04:00.903 *********
+
+TASK [monitor_host : Fail if host is in error condition] ********************************************************************************************************************************************************************
+fatal: [master0 -> bastion]: FAILED! => changed=false
+  msg: master0 is in error condition can not continue
+
+TASK [monitor_host : Wait for up to 60 minutes for node master2 to reboot] **************************************************************************************************************************************************
+ok: [master2 -> bastion]
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.146)       1:04:01.050 *********
+
+TASK [Force rebooting on disk] **********************************************************************************************************************************************************************************************
+skipping: [master2]
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.036)       1:04:01.086 *********
+
+TASK [monitor_host : Fail if host is in error condition] ********************************************************************************************************************************************************************
+fatal: [master2 -> bastion]: FAILED! => changed=false
+  msg: master2 is in error condition can not continue
+
+PLAY RECAP ******************************************************************************************************************************************************************************************************************
+bastion                    : ok=115  changed=10   unreachable=0    failed=0    skipped=109  rescued=0    ignored=0
+http_store                 : ok=1    changed=0    unreachable=0    failed=0    skipped=12   rescued=0    ignored=0
+master0                    : ok=5    changed=0    unreachable=0    failed=1    skipped=11   rescued=0    ignored=0
+master1                    : ok=5    changed=0    unreachable=0    failed=1    skipped=11   rescued=0    ignored=0
+master2                    : ok=5    changed=0    unreachable=0    failed=1    skipped=11   rescued=0    ignored=0
+
+Saturday 11 June 2022  17:57:33 +0300 (0:00:00.024)       1:04:01.110 *********
+===============================================================================
+install_cluster : Allow up to 190 minutes for all hosts to be discovered ------------------------------------------------------------------------------------------------------------------------------------------ 3434.74s
+monitor_host : Wait for up to 60 minutes for node master2 to reboot ------------------------------------------------------------------------------------------------------------------------------------------------ 240.76s
+install_cluster : Wait up to 20 minutes for the cluster to report as ready ----------------------------------------------------------------------------------------------------------------------------------------- 120.77s
+generate_discovery_iso : Download discovery ISO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 7.54s
+generate_discovery_iso : Generate a new discovery ISO ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 5.82s
+Gathering Facts ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.81s
+install_cluster : Get discovery ignition file ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.74s
+Gathering Facts ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.39s
+Gathering Facts ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.11s
+generate_discovery_iso : Create discovery directory ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.08s
+validate_inventory : Ensure service hosts are reachable -------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.97s
+generate_ssh_key_pair : Copy SSH Key files to bastion ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.83s
+generate_ssh_key_pair : Generate an OpenSSH rsa keypair -------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.77s
+generate_ssh_key_pair : Fetch SSH Key -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.55s
+patch_host_config : Set host name and role for 42a3e553-5225-65e2-2209-cbf2a33454f6 ---------------------------------------------------------------------------------------------------------------------------------- 0.45s
+validate_inventory : Assert all nodes have all required vars --------------------------------------------------------------------------------------------------------------------------------------------------------- 0.43s
+create_cluster : Create cluster -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.41s
+monitor_host : Fail if host is in error condition -------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.39s
+generate_ssh_key_pair : Remove temporary ssh_keys folder /tmp/ssh_key_pair ------------------------------------------------------------------------------------------------------------------------------------------- 0.36s
+install_cluster : Copy discovery_ignition.json ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.36s
+[mxapocpadmin@scprljop17 crucible]$
+
+
+
+
+
+
+
+podman run --privileged --volume /var/lib/etcd:/test quay.io/peterducai/openshift-etcd-suite:latest fio
+
+oc adm inspect ns/openshift-etcd
+
+
+export http_proxy=http://sapphire:JawwySA2021@10.21.194.111:8080
+export https_proxy=http://sapphire:JawwySA2021@10.21.194.111:8080
+
+export no_proxy=10.27.2.51,10.27.2.52,10.20.70.210,10.20.70.211,10.20.70.214,10.20.71.120,10.27.131.20,10.27.2.20,10.27.2.0,10.27.130.0,.cluster.local,.svc,10.29.0.0/17,10.29.128.0/17,127.0.0.1,api-int.jawwy-ocs-sit-dev.stc.com.sa,etcd-0.jawwy-ocs-sit-dev.stc.com.sa,etcd-1.jawwy-ocs-sit-dev.stc.com.sa,etcd-2.jawwy-ocs-sit-dev.stc.com.sa,api.jawwy-ocs-prod01.stc.com.sa,localhost,api-int.jawwy-ocs-prod01.stc.com.sa,etcd-0.jawwy-ocs-prod01.stc.com.sa,etcd-1.jawwy-ocs-prod01.stc.com.sa,etcd-2.jawwy-ocs-prod01.stc.com.sa,api.jawwy-ocs-prod01.stc.com.sa,localhost,.stc.com.sa
+
+
+
+https_proxy=http://sapphire:JawwySA2021@10.21.194.111:8080
+
+
+podman run --volume /var/lib/etcd:/var/lib/etcd:Z quay.io/openshift-scale/etcd-perf
+
+
+grep -Hv "zz" /sys/class/fc_host/host*/speed
+iostat -tmx 1 <device>
+lsscsi
+oc debug node/worker-1.example.com --image=quay.io/fedora/fedora:33-x86_64:latest
+
+
+oc debug node/worker-1.example.com --image=quay.io/fedora/fedora:33-x86_64:latest
+https://access.redhat.com/solutions/4929021
+
+yum install procps-ng perf psmisc hostname iproute sysstat iotop -y
+cat /proc/scsi/scsi
+ls -ld /sys/block/sd*/device
+
+mount |grep ' / '
+
+
+iostat -tmx 1  /dev/sdb
+
+
+podman run --volume /var/lib/etcd:/var/lib/etcd:Z quay.io/openshift-scale/etcd-perf
+
+fio --name=global3 --filename=fiotest --runtime=120 --ioengine=libaio --direct=1 --ramp_time=10 --name=read3 --readwrite=rw --rwmixread=70 --rwmixwrite=30 --iodepth=1 --blocksize=4k --size=1G --percentage_random=0 > r70_w30_1G_d4.log
+
+
+fio --rw=write --ioengine=sync --fdatasync=1 --directory=test-data --size=22m --bs=2300 --name=mytest
+
+
+
+iostat -Nmx 1 1800
+
+Collect iostat -tkx 1 and blktrace during each fio run.
+
+
+echo 3 > /proc/sys/vm/drop_caches
+
+
+https://access.redhat.com/solutions/4846891
+
+
+
+blktrace -t 150 /dev/<dev1> /dev/<dev2> ..
+
+
+https://access.redhat.com/articles/6271341
+
+sshuttle -v --dns --to-ns=10.38.5.26 -N --no-latency-control -r 
+
+
+
+collectl -sD -oT --dskfilt sda$ -p <file name>
+
+
+oc login --token=sha256~sinfC-5DQVIUGxYikDnYk9WRcRfDdf9h0ifDMZTweTU --server=https://api.jawwy-ocs-prod01.stc.com.sa:6443
+
+oc login --token=sha256~Rb58J4CaL84zakQf1TNku1HVdtLoKp6iqjJ2HBqDlIk --server=https://api.jawwy-ocs-prod02.stc.com.sa:6443
+
+
+
+-------------------  get ocs status ------------------
+oc get pods -n openshift-storage -l app=rook-ceph-tools -o name
+ceph status
+ceph osd tree
+
+-o jsonpath='{range .status.currentHour..byUser[*]}{..byVerb[*].verb}{","}{.username}{","}{.userAgent}{"\n"}{end}' | sort -k 2 -t, -u | column -t -s, -NVERBS,USERNAME,USERAGENT
+
+
+oc rsh -n openshift-storage $(oc get pods -n openshift-storage -o name -l app=rook-ceph-operator)
+export CEPH_ARGS='-c /var/lib/rook/openshift-storage/openshift-storage.config'
+ceph -s
+
+

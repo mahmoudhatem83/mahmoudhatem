@@ -1,0 +1,33 @@
+Thank you for 1000+ Followers!
+
+We are overwhelmed by the love we get from You and for growing our family 
+An expression of gratitude to you for following us, we offer you a 15% discount for all order in the coming 3 days 
+
+
+
+
+
+
+ # Local File Configuration #
+    ############################
+
+    repo_root_path: /home/mxapocpadmin/crucible/ # path to repository root
+
+    # Directory in which created/updated artifacts are placed
+    fetched_dest: "{{ repo_root_path }}/fetched"
+
+    # Configure possible paths for the pull secret
+    # first one found will be used
+    # note: paths should be absolute
+    pull_secret_lookup_paths:
+      - "{{ fetched_dest }}/pull-secret.txt"
+      - "{{ repo_root_path }}/pull-secret.txt"
+
+    # Configure possible paths for the ssh public key used for debugging
+    # first one found will be used
+    # note: paths should be absolute
+    ssh_public_key_lookup_paths:
+      - "{{ fetched_dest }}/ssh_keys/{{ cluster_name }}.pub"
+      - "{{ repo_root_path }}/ssh_public_key.pub"
+      - ~/.ssh/id_rsa.pub
+
